@@ -34,11 +34,13 @@ Architecture
 * A [Postgres](https://hub.docker.com/_/postgres/) database backed by a Docker volume
 * A [Node.js](/result) webapp which shows the results of the voting in real time
 
+[original](https://excalidraw.com/#json=oMXlxeVy6mFq-U_VfM17W,O1ONbt34uOfUNu0yV7CEfQ)
 
 Notes
 -----
 
-The voting application only accepts one vote per client. It does not register votes if a vote has already been submitted from a client.
+The voting application only accepts one vote per client. It does not register votes 
+if a vote has already been submitted from a client.
 
 This isn't an example of a properly architected perfectly designed distributed app...
 it's just a simple example of the various types of pieces and languages you might see
